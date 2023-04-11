@@ -34,9 +34,11 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORDTOKEN);
 			Routes.applicationCommands(process.env.BOTID),
 			{ body: commands },
 		);
+		await console.log(data);
 
 		console.clear();
-	} catch (error) {
+	}
+	catch (error) {
 		// And of course, make sure you catch and log any errors!
 		console.error(error);
 	}

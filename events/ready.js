@@ -1,4 +1,4 @@
-const { Events } = require('discord.js');
+const { Events, ActivityType } = require('discord.js');
 const figlet = require('figlet');
 
 module.exports = {
@@ -14,6 +14,6 @@ module.exports = {
 			console.log(data);
 		});
 		console.log(`The bot has loaded successfully!\nAs of stating, the bot is in ${c.guilds.cache.size} guilds!`);
-
+		c.user.setPresence({ activities: [{ name: 'you say "yo"', type: ActivityType.Watching }], status: 'dnd' });
 	},
 };
