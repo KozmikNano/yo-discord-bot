@@ -1,0 +1,33 @@
+{
+  "name": "discord-js-template",
+  "version": "1.0.0",
+  "description": "A discord js template used to quickly start development on new bots.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node clean-commands.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozmiknano/discord-js-template.git"
+  },
+  "keywords": [
+    "template",
+    "discord",
+    "js"
+  ],
+  "author": "KozmikNano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kozmiknano/discord-js-template/issues"
+  },
+  "homepage": "https://github.com/kozmiknano/discord-js-template#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
