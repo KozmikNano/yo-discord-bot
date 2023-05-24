@@ -6,7 +6,7 @@ This bot was created as a joke for one of my friends. Sometimes we will just res
 
 ---
 ## Setup
-Heres the setup instructions:
+Heres the setup instructions (make sure you have nodejs v16+, git, and npm):
 
 1. Clone and enter the folder
 ```
