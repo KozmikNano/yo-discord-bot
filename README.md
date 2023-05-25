@@ -3,6 +3,8 @@ A simple bot that replies to the message "yo" with "yo"
 
 ## About
 This bot was created as a joke for one of my friends. Sometimes we will just respond with yo and leave it at that, nothing else! So for the sake of preserving the memory I created this bot.
+### Inviting
+You can invite the bot by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1111092642558775446&permissions=274877974528&scope=applications.commands%20bot)
 
 ---
 ## Setup
