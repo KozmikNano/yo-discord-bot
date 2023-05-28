@@ -1,3 +1,3 @@
 # Privacy Policy
 
-This discord bot does not collect or store any information about anything the bot has access to. Offical instances that are refrenced in Readme.md are exactly the same as what you see in the code repo.
+This Discord bot collects the user's username, user ID, and the number of times "yo" is said. This data is not sold or used in any matter other than to share how many times a user said "yo".
