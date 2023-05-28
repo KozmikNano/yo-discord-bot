@@ -6,7 +6,7 @@ module.exports = {
 		.setDescription('Replies with the amount of times somebody has said yo!')
         .addUserOption(option => option.setName('user').setDescription('The user to get the amount of times they have said yo!')),
 	async execute(interaction) {
-		const user = interaction.options.getUser('user');
+		const user = interaction.options.getUser('user') || interaction.user;
         // look at database.json and grab the yoCount for the user. If the user doesn't exist, set it to reeturn with a message
         const fs = require('fs');
         let database = {};
